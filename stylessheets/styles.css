@@ -1,0 +1,131 @@
+/*
+    Name: Edwin Breton
+    Date: 07/07/2024
+    File Name: styles.css
+*/
+
+/* CSS Reset */
+
+body,
+header,
+footer,
+img,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for body */
+/* Needed to specify HTML height to avoide bg gradient from repeating.*/
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(155deg, #fdc83e 50%, #364174 50%);
+}
+
+/*image styles*/
+.social img {
+    display: inline-block;
+    padding: 4%;
+}
+
+/*Text Styles*/
+p {
+    font-size: 1.5em;
+}
+
+/* Styles for header and footer*/
+
+header {
+    height: 170px;
+    background-color: #364174;
+    color: #fdc83e;
+
+    h1,
+    h3 {
+        margin: auto;
+        color: #fdc83e;
+    }
+}
+
+nav {
+    background-color: #364174;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #fdc83e;
+    color: #364174;
+    border-radius: 8px;
+}
+
+.logo {
+    margin: 10px 10px;
+    float: left;
+    max-height: 150px;
+}
+
+footer {
+    background-color: #364174;
+    padding: 1% 0%;
+    overflow: auto;
+}
+.copyright {
+    float: left;
+    width: 65%;
+}
+
+.social {
+    float: right;
+    width: 25%;
+}
+.link {
+    color: #f3e6d8;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+.tel-link {
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tel-link a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    color: #f3e6d8;
+}
+
+/*Desktop Viewport: Style rules for form elements*/
+form {
+    width: auto;
+    margin: 0 auto;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.btn {
+    grid-column: 1 / span 2;
+}
+
+/*Styles for main content*/
+
+main {
+    max-width: 60%;
+    margin: auto;
+}
